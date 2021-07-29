@@ -65,6 +65,8 @@ img::selection {
 }
 
 .navigation-list {
+    margin: 0;
+    padding: 0;
     display: flex;
     font-size: 12px;
     font-weight: bold;
@@ -162,6 +164,8 @@ img::selection {
 }
 
 .gradient-text {
+    max-width: 200px;
+    max-height: 60px;
     margin: 0 auto;
     font-weight: 900;
     color: #83888f;
@@ -170,6 +174,7 @@ img::selection {
     font-style: normal;
     text-align: center;
     font-family: "Fraunces", "Arial", serif;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7);
 }
 
 .coffee-list {
